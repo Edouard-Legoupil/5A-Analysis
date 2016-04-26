@@ -1,14 +1,22 @@
-# reusable updating radarChart
+# 5 A analysis: 
 
-### Design based on original by [NadiehBremer](https://twitter.com/NadiehBremer) at [Visual Cinnamon](http://www.visualcinnamon.com/2015/10/different-look-d3-radar-chart.html)
+ * Availibility
+ * Accessibility
+ * Affordability
+ * Acceptability
+ * Appropriateness
 
-### Coding philosophy inspired by [Rob Moore](http://www.toptal.com/d3-js/towards-reusable-d3-js-charts)
+### Made using reusable updating radarChart
 
-#### [See this block in production with Live Data](http://tennisvisuals.com/examples/MatchRadar.html)
+Design based on original by [NadiehBremer](https://twitter.com/NadiehBremer) at [Visual Cinnamon](http://www.visualcinnamon.com/2015/10/different-look-d3-radar-chart.html)
 
-#### [Find the Latest Code on GitHub](https://github.com/TennisVisuals/updating-radar-chart)
+Coding philosophy inspired by [Rob Moore](http://www.toptal.com/d3-js/towards-reusable-d3-js-charts)
 
-##### I figured out enter/exit/update for nested objects by studying [Lee Mendelowitz's block](http://bl.ocks.org/LeeMendelowitz/11383724) and reviewing [Mike's comments](https://groups.google.com/forum/#!topic/d3-js/5AxgsKK31EA)
+ [See this block in production with Live Data](http://tennisvisuals.com/examples/MatchRadar.html)
+
+ [Find the Latest Code on GitHub](https://github.com/TennisVisuals/updating-radar-chart)
+
+ I figured out enter/exit/update for nested objects by studying [Lee Mendelowitz's block](http://bl.ocks.org/LeeMendelowitz/11383724) and reviewing [Mike's comments](https://groups.google.com/forum/#!topic/d3-js/5AxgsKK31EA)
 
 ### Features:
 - Separate layer for hover objects which need to remain on top of chart
