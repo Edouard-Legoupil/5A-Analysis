@@ -47,7 +47,7 @@ function RadarChart() {
 
       areas: {
          colors: {},            // color lookup by key
-         opacity: 0.35,
+         opacity: 0.65,
          borderWidth: 2,
          rounded: true,
          dotRadius: 4,
@@ -110,7 +110,7 @@ function RadarChart() {
    var _data = [];
    var legend_toggles = [];
    var radial_calcs = {};
-   var Format = d3.format('%'); // Percentage formatting
+   var Format = d3.format(''); // Percentage formatting
    var transition_time = 0;
    var delay = 0;
    var keys;
