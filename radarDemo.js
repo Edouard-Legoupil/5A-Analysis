@@ -29,17 +29,17 @@
         {  
           "key":"Iraq",
           "values":[  
-            {axis:"Availibility: Skilled Educator",value:4},
+            {axis:"Availibility: Skilled Educator",value:2},
             {axis:"Availibility: Infrastructure",value:2},
             {axis:"Availibility: Ressources Allocation",value:2},
-            {axis:"Accessibility: Legal Barrier",value:2},
-            {axis:"Accessibility: Policy",value:4},
-            {axis:"Accessibility: Emis",value:3},
-            {axis:"Accessibility: Advocacy",value:4},
+            {axis:"Accessibility: Legal Barrier",value:4},
+            {axis:"Accessibility: Policy",value:3},
+            {axis:"Accessibility: Emis",value:1},
+            {axis:"Accessibility: Advocacy",value:2},
             {axis:"Affordability: Economic Obstacle",value:3},
-            {axis:"Affordability: Financial Support",value:4},
+            {axis:"Affordability: Financial Support",value:3},
             {axis:"Acceptability: Country Support",value:1},
-            {axis:"Acceptability: Language",value:4},
+            {axis:"Acceptability: Language",value:1},
             {axis:"Appropriateness: Safe Environment",value:4},
             {axis:"Appropriateness: Quality Standards",value:2}
            ]
