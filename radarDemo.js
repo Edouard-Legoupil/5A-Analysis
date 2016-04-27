@@ -110,14 +110,14 @@
       radarChart.options({axes: {lineColor: "black"}});
       radarChart.options({'areas': {'dotRadius': 2}});
       radarChart.options({circles: {fill: '#CDCDCD', color: '#CDCDCD'}});
-      radarChart.height(450).width(450).data(data).duration(1000).update();
+      radarChart.height(500).width(500).data(data).duration(1000).update();
    }, 100);
    
    
    setTimeout(function() { 
       operation.html(" Each country is represented through a color: this is Egypt ");
       var one = radarChart.slice(0, 1);      
-      radarChart.height(500).width(500).data(one).colors({'Egypt': '#d7191c', 'Iraq': '#fdae61', 'Jordan': '#ffffbf', 'Lebanon': '#abd9e9', 'Turkey': '#2c7bb6'}).update();
+      radarChart.height(550).width(550).data(one).colors({'Egypt': '#d7191c', 'Iraq': '#fdae61', 'Jordan': '#ffffbf', 'Lebanon': '#abd9e9', 'Turkey': '#2c7bb6'}).update();
    }, 5000);
    
    setTimeout(function() { 
@@ -203,7 +203,7 @@
       radarChart.filterAxes(10);  //Acceptability
       radarChart.filterAxes(11);  //Appropriateness
       radarChart.filterAxes(12);  //Appropriateness
-      radarChart.height(400).width(400).data(data).update();   
+      radarChart.height(500).width(500).data(data).update();   
    }, 20000);
 
    
@@ -233,7 +233,7 @@
       radarChart.filterAxes(10);  //Acceptability
       radarChart.filterAxes(11);  //Appropriateness
       radarChart.filterAxes(12);  //Appropriateness
-      radarChart.height(400).width(400).data(data).update();   
+      radarChart.data(data).update();   
    }, 24100);
 
    
@@ -260,7 +260,7 @@
       radarChart.filterAxes(0);  //Availibility: Skilled Educator
       radarChart.filterAxes(1);  //Availibility: Infrastructure
       radarChart.filterAxes(2);  //Availibility: Ressources Allocation
-      radarChart.height(400).width(400).data(data).update();   
+      radarChart.data(data).update();   
    }, 28100);
 
    
